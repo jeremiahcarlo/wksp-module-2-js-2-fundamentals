@@ -10,9 +10,22 @@
 
 // Write function here
 
+function calculateAverage(grades) {
+    let sum = 0;
+    grades.forEach(function(grade) {
+        sum += grade;
+    });
+    return Math.round(sum / grades.length);
+}
 
- 
-// Call the function with [48, 95, 65, 48, 59, 78, 72, 65]
+function classGrade(grade) {
+    //.....not sure
+
+
+
+}
+    // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]
+console.log(classGrade);
 
 // Try with other values as well
 

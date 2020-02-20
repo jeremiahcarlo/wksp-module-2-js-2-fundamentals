@@ -73,9 +73,15 @@
 ```js
 // Q4. Write a function that returns the value of the tax for a given amount.
 
+function taxAmount(price) {
+    return price
+}
 
 // Q5. Write a function that returns the value 42.
 
+function theAnswer () {
+    return 42;
+}
 
 // Q6. Write a function that returns "Hello!".
 

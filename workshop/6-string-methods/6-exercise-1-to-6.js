@@ -20,27 +20,32 @@ const notCode = ['summer', 'bacon', 'scary', 'intergalactic', 'jerry', 'morty', 
 // Q1
 // How many names does Morty have? (use grandson)
 
-
+let name = grandson.split (' '); 
+    console.log(name.length);
 
 // Q2
 // Convert the alternateRicks string to an array. Console that array.
 
-
+let alternateRicksArray = alternateRicks.split (', ') 
+    console.log(alternateRicksArray);
 
 // Q3
 // How many Ricks have been named in alternateRicks?
 
-
+console.log(alternateRicksArray.length);
 
 // Q4
 // How many characters are there in rickSaying (without spaces)? 
 
+let RICK = rickSaying.split (' ')
+console.log(rickSaying.length);
 
 
 // Q4
 // Morty doesn't actually have a middle name. Console Morty's name without "Antoine".
 
-
+let trueName = grandson.split ('Antoine')
+    console.log(trueName);
 
 // Q5
 // Decode and console. the secret!

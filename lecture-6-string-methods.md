@@ -16,19 +16,19 @@ For example, all objects have `toString` and `valueOf` methods.
 
 ```js
 let num = 3;
-num.toString();
+num.toString(); // 3
 
 let bool = true;
-bool.toString();
+bool.toString();  // "true"
 
 let str = 'hello';
-str.toString();
+str.toString(); // "hello"
 
 let arr = [1, 2, 'three'];
-arr.toString();
+arr.toString(); // "1,2,three"
 
 let dip = {value: 3};
-dip.toString();
+dip.toString(); // 
 ```
 
 Let's look at the examples above again using `valueOf`.

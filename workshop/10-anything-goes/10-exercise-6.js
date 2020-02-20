@@ -17,7 +17,14 @@
 // http://mathworld.wolfram.com/NarcissisticNumber.html
 
 function identifyArmstrongNumbers(num1, num2) {
+    let armstrongNumbers = []; 
 
-}
+    // for? ()
+    }
+
+
+
+
+
 
 console.log(identifyArmstrongNumbers(100, 99999));

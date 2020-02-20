@@ -3,6 +3,9 @@
 // the greater one.
 
 // Define the function
+
+let num1 = 12; let num2 = 43
+
 function max(num1, num2) {
     let greaterNumber;
 
@@ -13,9 +16,10 @@ function max(num1, num2) {
     }
 
     console.log(`${greaterNumber} is the greater number`);
-}
+} 
 
 // Call the function
-max(12, 43);
+
 
 // Call it a few more times with other numbers.
+

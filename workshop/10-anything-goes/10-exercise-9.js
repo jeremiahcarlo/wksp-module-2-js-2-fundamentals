@@ -13,7 +13,13 @@
 function every(lst, func) {
     // lst is an array and f is a function
     // func takes 1 argument and returns a boolean
-
+    let verification = true;
+    for (let i = 0; i < lst.length; i++) {
+        if (verification) {
+            verification = func(lst[i]);
+        }
+    }
+    return verification;
 }
 // -------------------------------------------------------------------------
 function isEven(num) { return num % 2 === 0 }
